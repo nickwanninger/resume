@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5 {
 
 
 
+img.nav-icon {
+    height: 40px;
+    margin: 20px;
+    padding-right: 1em;
+}
+
 
 h1 {
     font-size: 30px;
@@ -31,7 +37,10 @@ h2 {
 
 
 h2.section-heading {
+    font-family: 'IBM Plex Mono', monospace;
     margin: 10px;
+    text-transform: capitalize;
+    font-weight: 900;
 }
 
 h4 {
@@ -66,7 +75,7 @@ nav {
     border-radius: 1em;
 }
 
-section {
+.block {
     padding: 1em;
     margin: 1em 0px;
 
@@ -90,4 +99,25 @@ img.icon {
     margin: 5px;
     width: 24px;
     height: 24px;
+}
+
+
+pre {
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #EEE;
+}
+
+code {
+    font-family: monospace;
+}
+
+
+.readme h1, .readme h2, .readme h3 {
+    margin: 5px 0;
+}
+
+.readme img {
+    width: 100%;
 }

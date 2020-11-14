@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nick Wanninger - Systems Engineer | Chariot</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <main>
+        <nav>
+            <a href="/index.html">
+                <img class="nav-icon" src="/res/arrow-left.svg" alt="Go Back">
+            </a>
+
+            <div>
+                <h1>Nick Wanninger</h1>
+                <h2>Systems Engineer</h2>
+            </div>
+            <div style="display: flex; flex: 1;"></div>
+
+
+            <a href="https://github.com/nickwanninger" target="_blank"><img class="icon" src="./res/icons/github.svg"
+                    alt="Link to my github" /></a>
+            <a href="https://twitter.com/nickwanninger" target="_blank"><img class="icon" src="./res/icons/twitter.svg"
+                    alt="Link to my twitter" /></a>
+
+        </nav>
+        <section id="chariot">
+            <div class="block readme">
+
+                
+                <!-- this is the raw html output from the markdown converter... not meant to be read. -->
+                
+                <h2 id="a-simple-unix-like-kernel-written-in-c-">A simple unix-like kernel written in C++</h2>
+                <h3 id="how-to-build-run">How to build/run</h3>
+                <p>To build the kernel, build an image, and run in QEMU, just run this command:</p>
+                <pre><code>$ tools/<span class="hljs-keyword">run</span>.<span class="bash">sh</span>
+</code></pre>
+                <p>And to just build it into a binary and img:</p>
+                <pre><code>$ tools/<span class="hljs-keyword">sync</span>.<span class="hljs-keyword">sh</span>
+</code></pre>
+                <p>Or, if you&#39;re old fashioned, you can just run <code>make</code> :)</p>
+                <p>oh, and it runs doom</p>
+                <p><img src="https://github.com/nickwanninger/chariot/raw/trunk/meta/DOOM.png" alt="It runs doom"
+                        style="width: 100%;"></p>
+                <p>You just need to put your copy of doom1.wad in /usr/res/misc/doom1.wad and <code>/bin/doom</code>
+                    will run.
+                    Either that or run <code>doom -iwad &lt;path to wad&gt;</code></p>
+
+
+                    <hr>
+                <h4 class="role"><a href="https://github.com/nickwanninger/chariot" target="_blank">Source Code</a></h4>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>

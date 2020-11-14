@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nick Wanninger - Systems Engineer | Geode</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <main>
+        <nav>
+            <a href="/index.html">
+                <img class="nav-icon" src="/res/arrow-left.svg" alt="Go Back">
+            </a>
+
+            <div>
+                <h1>Nick Wanninger</h1>
+                <h2>Systems Engineer</h2>
+            </div>
+            <div style="display: flex; flex: 1;"></div>
+
+
+            <a href="https://github.com/nickwanninger" target="_blank"><img class="icon" src="./res/icons/github.svg"
+                    alt="Link to my github" /></a>
+            <a href="https://twitter.com/nickwanninger" target="_blank"><img class="icon" src="./res/icons/twitter.svg"
+                    alt="Link to my twitter" /></a>
+
+        </nav>
+        <section id="geode">
+            <div class="block readme">
+
+                
+                <!-- this is the raw html output from the markdown converter... not meant to be read. -->
+
+                <div style="text-align:center"><img
+                        src="https://s3-us-west-2.amazonaws.com/nickwanninger/geode/masthead.png" /></div>
+                <h2 id="about">About</h2>
+                <p>Geode is a programming language written in go around the llvm framework.
+                    It&#39;s semi low level for the time being with plans to be higher level in
+                    the future. It is just a compiler to llvm, then it calls clang to link the
+                    .ll files to a runnable binary. Clang will also link the c standard library.</p>
+                <h2 id="installing">Installing</h2>
+                <p>Installing Geode is simple, just follow the steps below and install a few dependencies</p>
+                <p>Go to <a href="https://github.com/geode-lang/geode/releases">releases</a> and download the
+                    distribution for your OS</p>
+                <h4 id="macos">MacOS</h4>
+                <p>Install dependencies</p>
+                <pre><code>$ <span class="hljs-keyword">brew </span><span class="hljs-keyword">install </span>clang libgc
+                </code></pre>
+                <p>Run the pkg installer</p>
+                <h4 id="ubuntu-debian">Ubuntu/Debian</h4>
+                <pre><code>$ sudo apt install clang libgc-dev
+                $ sudo apt install ./geode-X<span class="hljs-selector-class">.X</span><span class="hljs-selector-class">.X</span><span class="hljs-selector-class">.deb</span>
+                </code></pre>
+
+
+                <hr>
+                <h4 class="role"><a href="https://github.com/geode-lang/geode" target="_blank">Source Code</a></h4>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>

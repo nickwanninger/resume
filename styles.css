@@ -121,3 +121,16 @@ code {
 .readme img {
     width: 100%;
 }
+
+img.external-link {
+    height: 0.9rem;
+}
+
+
+.hash-link {
+    text-decoration: none;
+}
+
+.hash-link img {
+    height: 1rem;
+}

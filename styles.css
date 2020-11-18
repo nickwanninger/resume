@@ -134,3 +134,10 @@ img.external-link {
 .hash-link img {
     height: 1rem;
 }
+
+
+section.bottom-link {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 900;
+}
